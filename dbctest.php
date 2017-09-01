@@ -6,14 +6,9 @@
  * Time: 12:49 PM
  */
 
-session_start();
-
 require "DBC.php";
 
 $test = new DBC();
-/*if ($test){echo "new object created";}
-else {echo "couldn't create object";}*/
-
 $q1="SELECT * FROM Balances";
 
 $sql=$test->query($q1);

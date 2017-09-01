@@ -24,11 +24,6 @@ class DBC
         $dsn = "mysql:host=$this->host;dbname=$this->database;charset=$this->charset";
                 $pdo = new PDO($dsn, $this->UN, $this->Pass, $this->opt);
 
-                /*if($pdo)
-               {echo "connection successful";}
-                else {
-                    echo "connection unsuccessful";
-                }*/
         return $pdo;
     }
 

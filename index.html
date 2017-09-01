@@ -58,30 +58,30 @@
     <script src="http://www.holisticanalyticswnc.com/MonkeyApp/Beau/jquery-goal-slider.js"></script>
     <script>
 
-     /*   $(document).ready(function () {
+        $(document).ready(function () {
             $.ajax({
-            type: "POST",
-            url: 'http://www.holisticanalyticswnc.com/MonkeyApp/Beau/dbctest.php',
-            data: {},
-            success: function(data) {
-                trr=JSON.parse(data);
-                //process data returned from php
-                goal=1200;
-                currentM=trr.MagBalance;
-                //get current variable values
-                ratioM=(currentM/goal)*100;
-                //calculate ratio
-                $('.jgs__steps-highlighted').css("width",ratioM);
-                $('.jgs__percentage-value').text('So Far:'+currentM+' dollars');
-                $('.jgs__container').goalSlider({
-                    percentage: ratioM,
-                    duration: 6023,
-                    delay: 3000,
-                    slantDegree: 20
-                });        }
-        });
+                type: "POST",
+                url: 'http://www.holisticanalyticswnc.com/MonkeyApp/Beau/dbctest.php',
+                data: {},
+                success: function(data) {
+                    trr=JSON.parse(data);
+                    //process data returned from php
+                    goal=1200;
+                    currentM=trr.MagBalance;
+                    //get current variable values
+                    ratioM=(currentM/goal)*100;
+                    //calculate ratio
+                    $('.jgs__steps-highlighted').css("width",ratioM);
+                    $('.jgs__percentage-value').text('So Far:'+currentM+' dollars');
+                    $('.jgs__container').goalSlider({
+                        percentage: ratioM,
+                        duration: 6023,
+                        delay: 3000,
+                        slantDegree: 20
+                    });        }
+            });
 
-        });*/
+        });
 
 
     </script>

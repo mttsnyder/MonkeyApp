@@ -8,7 +8,7 @@
  */
 class DBC
 {
-    protected $host = 'localhost';
+    protected $host = 'http://www.holisticanalyticswnc.com';
     protected $charset = 'utf8';
     protected $UN="mttdb";
     protected $Pass="P@ssw0rd";

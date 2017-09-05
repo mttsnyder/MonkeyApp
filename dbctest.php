@@ -5,7 +5,7 @@
  * Date: 7/18/2017
  * Time: 12:49 PM
  */
-
+header('Access-Control-Allow-Origin: *');
 require "DBC.php";
 
 $test = new DBC();
